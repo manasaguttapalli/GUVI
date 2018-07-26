@@ -7,7 +7,7 @@ public class VowelorConsonent {
 		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'){
 			System.out.println("Vowel");
 		}
-		else if(c>'a' && c<'z'){
+		else if(c>='a' && c<='z'){
 			System.out.println("Consonent");
 		}
 		else{
