@@ -10,11 +10,11 @@ public class PositiveOrNegative {
 		   }
 		  else if(n>0)
         {
-			    System.out.println("positive");
+			    System.out.println("Positive");
 	  	}
 		else if(n<0)  
        {
-			     System.out.println("negative");
+			     System.out.println("Negative");
 		    }
 		else  
        {
