@@ -6,7 +6,7 @@ public class oddNumbersIntervals {
 	 int N=s.nextInt();
 	 int Q=s.nextInt();
 	 if(N==Q+1 || Q==N+1){
-		 System.out.println("no primes exist");
+		 System.out.println("no odds exist");
 	 }else{
 	 if(N<Q){
 	 for(int i=N+1;i<Q;i++){
