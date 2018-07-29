@@ -13,10 +13,7 @@ public class SumOfArrayElements {
 		for(int i=0;i<K;i++){
 			total=total+a[i];
 		}
-		for(int j=0;j<a.length;j++){
-			System.out.print(a[j]+" ");
-		}
-		System.out.print("\n"+total);
+		System.out.print(total);
 
 	}
 
