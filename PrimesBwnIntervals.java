@@ -2,28 +2,26 @@ import java.util.Scanner;
 public class PrimesBwnIntervals {
 	public static void main(String args[])
     {
-         int s1, s2, s3, flag = 0, i, j;
+         int s1, s2, s3, i, j;
          Scanner s = new Scanner(System.in);
-         s1 = s.nextInt();
-         s2 = s.nextInt();
-         for(i=s1;i<s2;i++)
+        int a = s.nextInt();
+        int b = s.nextInt();
+         for(i=a+1;i<b;i++)
          {
-             for(j=2;j<i;j++)
-             {
-                 if(i%j==0)
-                 {
-                     flag=0;
-                     break;
-                 }
-                 else
-                 {
-                     flag=1;
-                 }
+         int c=0;
+           for(j=2;j<=i/2;j++)
+            {
+              if(i%j==0)
+              {
+                 c++;
+                 break;
+               }
              }
-             if(flag==1)
-             {
-                 System.out.print(i+" ");
-             }
+         if(c==0)
+         {
+           System.out.print(i+" ");
+           
          }
+       }
     }
 }
