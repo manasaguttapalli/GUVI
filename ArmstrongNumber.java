@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		int temp=n;
+		int rem,sum=0;
+		while(n!=0){
+			rem=n%10;
+			
+			sum=(rem*rem*rem)+sum;
+			n=n/10;
+		}
+		if(temp==sum){
+			System.out.println("yes");
+		}
+		else{
+			System.out.println("no");
+		}
+			
+
+	}
+
+}
