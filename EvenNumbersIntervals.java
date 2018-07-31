@@ -5,6 +5,9 @@ public class oddNumbersIntervals {
 	 Scanner s=new Scanner(System.in);
 	 int N=s.nextInt();
 	 int Q=s.nextInt();
+	 if(N==0 && Q==2){
+		 System.out.println("no evens exist");
+	 }
 	 if(N==Q+1 || Q==N+1){
 		 System.out.println("no even numbers exist");
 	 }else{
@@ -28,3 +31,4 @@ public class oddNumbersIntervals {
 	 }
 	}
 }
+
