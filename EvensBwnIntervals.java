@@ -6,7 +6,7 @@ public class EvenNumbersIntervals {
 	 int N=s.nextInt();
 	 int Q=s.nextInt();
 	 if(N==0 && Q==2){
-		 System.out.println("no evens exist");
+		 System.out.println("no even numbers exist");
 	 }
 	 if(N==Q+1 || Q==N+1){
 		 System.out.println("no even numbers exist");
