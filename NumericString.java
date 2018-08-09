@@ -13,7 +13,7 @@ public class NumericString {
 		  }  
 		  catch(NumberFormatException nfe)  
 		  {  
-		   System.out.println("No") ;  
+		   System.out.println("no") ;  
 		  }  
 		  
 }
