@@ -6,7 +6,7 @@ public class MinutesIntoHours {
 		int t=s.nextInt();
 		int hours = t / 60; 
 		int minutes = t % 60;
-		System.out.println(+hours+" "+minutes);
+		System.out.println(hours+" "+minutes);
 
 	}
 
