@@ -7,10 +7,13 @@ public class RepeatARandomString {
 		Scanner s=new Scanner(System.in);
 		str=s.next();
 		n=s.nextInt();
+		if(n<=0){
+			System.out.println("Invalid integer");
+		}else{
 		for(int i=0;i<n;i++){
 			System.out.println(str);
+			}
 		}
-
 	}
 
 }
