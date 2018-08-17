@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class minimumOfArray {
+public class minimumOfTenNumbers {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
