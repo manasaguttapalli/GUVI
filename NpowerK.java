@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.math.*;
-public class N^K {
+public class NpowerK {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
