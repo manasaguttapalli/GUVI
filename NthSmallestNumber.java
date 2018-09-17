@@ -5,6 +5,9 @@ public class NthSmallestNumber {
 		Scanner s=new Scanner(System.in);
 		int N=s.nextInt();
 		int small=s.nextInt();
+		if(N<small){
+			System.out.println("Invalid input");
+		}
 		int a[]=new int[N];
 		int m=a[0];
 		for(int i=1;i<N;i++){
