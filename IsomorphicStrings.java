@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashMap;
-public class Isomorphic {
+public class IsomorphicStrings {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
